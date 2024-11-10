@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="navbar-container">
+      <header class="navbar">
+        <div class="container">
+          <a class="logo" href="/">
+            <img src="pictures/logo.jpeg" alt="Logo" class="logo-img" />
+            <h1 class="logo-textname">Mudassir Ali</h1>
+          </a>
+          <nav class="nav-links">
+            <a href="/" class="nav-link">Home</a>
+            <a href="#About" class="nav-link">About</a>
+            <a href="#Project" class="nav-link">Projects</a>
+            <a href="#Skills" class="nav-link">Skills</a>
+            <a href="#Contact" class="nav-link">Contacts</a>
+          </nav>
+          <a href="/pictures/newcv.pdf" target="_blank">
+            <button class="download-btn">
+              Download Cv
+              <i class="fas fa-download"></i>
+            </button>
+          </a>
+        </div>
+      </header>
+    </div>
+    <section class="hero-section">
+      <div class="containerhero">
+        <div class="image-containerhero">
+          <img src="pictures/mypic.jpeg" alt="Picture" class="profile-img" />
+        </div>
+        <div class="text-containerhero">
+          <h1 class="hero-title">
+            I am<br class="hidden-lg" />
+            Web Developer
+          </h1>
+          <div class="underlinehero"></div>
+          <p class="hero-description">
+            "I'm a front-end developer and photo editor with a keen eye for
+            design and user experience. Specializing in crafting responsive,
+            visually engaging web interfaces, I combine technical skills in
+            HTML, CSS, and TypeScript with creative photo editing expertise to
+            bring digital projects to life. Whether I'm building intuitive user
+            interfaces or enhancing visuals, I focus on delivering polished,
+            high-quality work that captivates and performs seamlessly."
+          </p>
+          <div class="button-container-contact">
+            <a href="#Contact">
+              <button class="contact-button">Contact</button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div id="About">
+      <section class="text-gray-600 body-font">
+        <div class="container-about">
+          <div class="flex-container-about">
+            <div class="text-container-about">
+              <h1 class="title-about">About Me</h1>
+              <p class="description-about">
+                I’m a frontend web developer skilled in HTML, CSS, TypeScript,
+                Next.js, and TailwindCSS. I create dynamic, responsive
+                interfaces that deliver great user experiences. With a keen eye
+                for design, I bridge functionality with aesthetics. Passionate
+                about coding, I bring ideas to life with precision and style.
+              </p>
+              <div class="button-container-about">
+                <a
+                  href="/pictures/newcv.pdf"
+                  target="_blank"
+                  class="button-about"
+                  >View CV</a
+                >
+              </div>
+            </div>
+            <div class="image-container-about">
+              <img
+                class="profile-pic-about"
+                alt="Picture"
+                src="pictures/mypic.jpeg"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div id="Project">
+      <section class="project-section">
+        <h1 class="project-title">My Projects</h1>
+        <div class="project-container">
+          <div class="project-item">
+            <img
+              alt="gallery"
+              class="project-image"
+              src="/pictures/projectburger.jpeg"
+            />
+            <div class="project-content">
+              <h2 class="project-subtitle">Burger Restaurant Website</h2>
+              <p class="project-description">
+                Using of Html Css
+              </p>
+               <p>Copy the url and past on your browser (burger-customcss-wfk4.vercel.app)</p>
+              
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div id="Skills">
+      <section class="skills-section">
+        <div class="skills-container">
+          <div class="skills-header">
+            <h1 class="skills-title">Skills</h1>
+            <p class="skills-description">
+              I learned HTML, CSS, TypeScript, Next.js, and Tailwind through the
+              Governor's Initiative AI course, and now I plan to advance my
+              skills further in AI.
+            </p>
+          </div>
+          <div class="skills-list">
+            <div class="skill-item">
+              <div class="skill-card">
+                <img
+                  src="/pictures/htmllogo.png"
+                  alt="HTML logo"
+                  class="skill-icon"
+                />
+                <div class="skill-info">
+                  <h2 class="skill-name">HTML</h2>
+                  <div class="progress-bar">
+                    <div class="progress-fill" style="width: 95%"></div>
+                  </div>
+                  <p class="progress-percentage">95%</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- CSS Skill Card -->
+            <div class="skill-item">
+              <div class="skill-card">
+                <img
+                  src="/pictures/csslogo.png"
+                  alt="CSS logo"
+                  class="skill-icon"
+                />
+                <div class="skill-info">
+                  <h2 class="skill-name">CSS</h2>
+                  <div class="progress-bar">
+                    <div class="progress-fill" style="width: 93%"></div>
+                  </div>
+                  <p class="progress-percentage">93%</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- TypeScript Skill Card -->
+            <div class="skill-item">
+              <div class="skill-card">
+                <img
+                  src="/pictures/typescriptlogo.png"
+                  alt="TypeScript logo"
+                  class="skill-icon"
+                />
+                <div class="skill-info">
+                  <h2 class="skill-name">TypeScript</h2>
+                  <div class="progress-bar">
+                    <div class="progress-fill" style="width: 90%"></div>
+                  </div>
+                  <p class="progress-percentage">90%</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Next.js Skill Card -->
+            <div class="skill-item">
+              <div class="skill-card">
+                <img
+                  src="/pictures/nextjslogo.png"
+                  alt="Next.js logo"
+                  class="skill-icon"
+                />
+                <div class="skill-info">
+                  <h2 class="skill-name">Next.js</h2>
+                  <div class="progress-bar">
+                    <div class="progress-fill" style="width: 75%"></div>
+                  </div>
+                  <p class="progress-percentage">75%</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Tailwind CSS Skill Card -->
+            <div class="skill-item">
+              <div class="skill-card">
+                <img
+                  src="/pictures/talwindlogo.png"
+                  alt="Tailwind CSS logo"
+                  class="skill-icon"
+                />
+                <div class="skill-info">
+                  <h2 class="skill-name">Tailwind CSS</h2>
+                  <div class="progress-bar">
+                    <div class="progress-fill" style="width: 65%"></div>
+                  </div>
+                  <p class="progress-percentage">65%</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div id="Contact">
+      <section id="contact-section">
+        <div class="contact-container">
+          <div class="contact-header">
+            <h1 class="contact-title">Contact Us</h1>
+            <p class="contact-subtitle">Feel free to Contact</p>
+          </div>
+          <div class="contact-info">
+            <div class="contact-details">
+              <button class="email-button">
+                <a
+                  href="https://mail.google.com/mail/?view=cm&fs=1&to=mudassiralis817@gmail.com"
+                  target="_blank"
+                  >mudassiralis817@gmail.com</a
+                >
+              </button>
+              <p class="address-info">
+                Address: Herchand Rai Colony<br />
+                Sindh, Mirpurkhas<br />
+                Phone: +923142909772
+              </p>
+              <div class="social-links">
+                <a
+                  href="https://www.facebook.com/mudassiralialis?mibextid=ZbWKwL"
+                  target="_blank"
+                  class="social-link"
+                >
+                  <img
+                    src="/pictures/facebook.png"
+                    alt="Facebook"
+                    class="social-icon"
+                  />
+                </a>
+                <a
+                  href="https://www.instagram.com/mudassir_shaikh999/profilecard/?igsh=NGNtdHgxYnQ4cmNt"
+                  target="_blank"
+                  class="social-link"
+                >
+                  <img
+                    src="/pictures/instagram.png"
+                    alt="Instagram"
+                    class="social-icon"
+                  />
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/mudassir-ali-6399702b7?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                  target="_blank"
+                  class="social-link"
+                >
+                  <img
+                    src="/pictures/linkedin.png"
+                    alt="LinkedIn"
+                    class="social-icon"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div id="footer-container">
+      <footer id="footer">
+        <div class="footer-content">
+          <a href="#" class="footer-logo">
+            <img src="/pictures/logo.jpeg" alt="Logo" class="logo-image" />
+            <span class="logo-text">Mudassir Ali</span>
+          </a>
+          <p class="footer-copy">© 2024 Mudassir Ali</p>
+          <div class="social-media-links">
+            <a
+              href="https://www.facebook.com/mudassiralialis?mibextid=ZbWKwL"
+              target="_blank"
+              class="social-link"
+            >
+              <img
+                src="/pictures/facebook.png"
+                alt="Facebook"
+                class="social-icon"
+              />
+            </a>
+  <a
+              href="https://www.instagram.com/mudassir_shaikh999/profilecard/?igsh=NGNtdHgxYnQ4cmNt"
+              target="_blank"
+              class="social-link"
+            >
+    <img
+     src="/pictures/instagram.png"
+    alt="Instagram"
+      class="social-icon"
+   /></a>          
+<a
+href="https://www.linkedin.com/in/mudassir-ali-6399702b7?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+target="_blank"
+class="social-link">
+<img
+src="/pictures/linkedin.png"
+alt="LinkedIn"
+class="social-icon"
+/></a>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
